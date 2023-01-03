@@ -1,0 +1,7 @@
+version : "3"
+services :
+   django_app1 :
+     build : .
+     image : deep1321999/docker_sample:latest
+     ports:
+         - "8000:8000"
